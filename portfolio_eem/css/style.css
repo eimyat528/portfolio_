@@ -10,11 +10,11 @@ html{
 
 }
 
-body{
+/* body{
 
     height: 500vh;
 
-}
+} */
 
 .site-logo{
     width: 150px;
@@ -34,6 +34,20 @@ body{
     box-shadow: 0 0 5px #00000020;
     animation: toShow 1s linear;
 }
+
+.fa{
+    color: #00adb5;
+}
+
+input::placeholder {
+    color: #000000 !important;
+   
+  }
+
+  textarea::placeholder {
+    color: #000000 !important;
+  
+  }
 
 @keyframes toShow {
     from{
@@ -63,19 +77,19 @@ body{
 }
 
 .site-nav-scroll .nav-link{
-    color: #1A129F !important;
+    color: #222831 !important;
 }
 .site-nav-scroll .nav-link.current-section{
-    border: 2px solid #1A129F;
+    border: 2px solid #222831;
     border-radius: 10em;
     padding: 0.5rem 1.3rem !important;
 }
 .site-nav-scroll .menu-icon{
-    color: #1A129F;
+    color: #222831;
 }
 
 .home{
-    background-image: url(../img/bg-shape.svg);
+   
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 50%;
@@ -124,7 +138,11 @@ body{
 }
 
 .about{
-    background-color: #7E76F910;
+    background-color: #222831;
+}
+
+#contact{
+    background-color: #222831;
 }
 .about-text{
     /*background-image: url("../img/bg-2.svg");*/
@@ -132,11 +150,23 @@ body{
     /*background-position: center;*/
 }
 .services{
-    background-image: url("../img/bg-3.svg");
-    background-size: 100%;
+    background-image: url("../img/bg-4.svg");
+    background-position: center;
+}
+.r-image{
+    background-image:url("../img/frame-5.svg"); 
+    background-size: cover;
+    background-position: center;
+}
+.bg-img{
+    background-image: url("../img/frame-3.svg");
+    background-size: cover;
     background-position: center;
 }
 
+.btn-sec{
+    margin-left: 10px;
+}
 .services-card{
     border-radius: 35px !important;
     border:none !important;
@@ -185,16 +215,11 @@ body{
     background-color: #7E76F9 !important;
 }
 
-.contact{
-    background-image: url("../img/footer-2.svg"),url("../img/footer-1.svg");
-    background-size: auto 80%;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    /* background-attachment: fixed; */
-}
+
 
 .footer{
-    padding-top: 150px;
+    background-color: #252525;
+    padding-top: 50px;
 }
 
 .ani-delay-1{
